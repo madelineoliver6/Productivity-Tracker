@@ -12,14 +12,22 @@ const DailyToDoList = () =>{
 
     function addTask(){
 
+        if(newTask.trim() !== ""){
+            setTasks(t => [...t, newTask]);
+            setNewTask("");
+        }
+        
     }
 
     function deleteTask(index){
+        
+        const updatedTasks = tasks.filter((_, i) => i !== index);
+        setTasks(updatedTasks);
 
     }
 
     function moveTaskUp(index){
-
+        
     }
 
     function moveTaskDown(index){
@@ -27,7 +35,7 @@ const DailyToDoList = () =>{
     }
 
     return(
-        <div className="to-do-list">
+        <div className="daily-to-do-list">
           <h1>To-Do List</h1>  
 
           <div>

@@ -4,7 +4,7 @@ import DailyToDoList from './DailyToDoList.jsx'
 function App() {
 
   return (
-   <ToDoList/>
+   <DailyToDoList/>
   )
 }
 
