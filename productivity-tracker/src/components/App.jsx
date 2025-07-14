@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ToDoList from './ToDoList.jsx'
+import DailyToDoList from './DailyToDoList.jsx'
 
 function App() {
 

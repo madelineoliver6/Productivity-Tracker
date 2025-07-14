@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ToDoList = () =>{
+const DailyToDoList = () =>{
 
     const [tasks, setTasks] = useState([]);
     const [newTask, setNewTask] = useState("");
@@ -60,4 +60,4 @@ const ToDoList = () =>{
 
 }
 
-export default ToDoList
+export default DailyToDoList
