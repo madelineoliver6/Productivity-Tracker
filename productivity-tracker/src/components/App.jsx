@@ -1,10 +1,14 @@
 import { useState } from 'react'
-import DailyToDoList from './DailyToDoList.jsx'
+import DailyView from './DailyView.jsx'
+import Navbar from './Navbar.jsx'
 
 function App() {
 
   return (
-   <DailyToDoList/>
+    <div>
+      <Navbar/>
+      <DailyView/>
+    </div>
   )
 }
 

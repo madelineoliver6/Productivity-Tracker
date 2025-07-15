@@ -27,15 +27,16 @@ const DailyToDoList = () =>{
     }
 
     function moveTaskUp(index){
-        
+        //will implement later
     }
 
     function moveTaskDown(index){
+        //will implement later
 
     }
 
     return(
-        <div className="daily-to-do-list">
+        <div className="todolist">
           <h1>To-Do List</h1>  
 
           <div>
